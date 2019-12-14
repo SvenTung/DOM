@@ -1,0 +1,65 @@
+#new-book-form-hidden{
+  display: none;
+}
+
+#new-game-form-hidden{
+  display: none;
+}
+#new-movie-form-hidden{
+  display: none;
+}
+
+#delete-all-hidden{
+  display: none;
+}
+
+#book-list-hidden{
+  display: none;
+}
+
+#game-list-hidden{
+  display: none;
+}
+#movie-list-hidden{
+  display: none;
+}
+
+#form-wrapper{
+  display: flex;
+  flex-direction: row;
+}
+
+#list{
+  height: 100%;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 40px;
+  padding-right: 40px;
+  justify-content: space-between;
+}
+
+#input{
+  margin-right: 10px;
+}
+
+.list-item{
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: #7990AA;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+body{
+  font-family: georgia;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  opacity: 1;
+}
+
+.title{
+  font-size: 1.5em;
+}
